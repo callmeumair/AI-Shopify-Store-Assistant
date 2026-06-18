@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@theme {
+  --color-bg-primary: #080B12;
+  --color-bg-secondary: #0D1117;
+  --color-bg-elevated: #161B27;
+  --color-border: #1E2D45;
+  --color-border-glow: #2563EB;
+  --color-text-primary: #F0F6FF;
+  --color-text-secondary: #8B9EC7;
+  --color-text-muted: #3D5278;
+  --color-accent-blue: #3B82F6;
+  --color-accent-cyan: #06B6D4;
+  --color-accent-purple: #8B5CF6;
+  --color-accent-green: #10B981;
+  --color-accent-amber: #F59E0B;
+  --color-accent-red: #EF4444;
+}
+
+:root {
+  --bg-primary: #080B12;
+  --bg-secondary: #0D1117;
+  --bg-elevated: #161B27;
+  --border: #1E2D45;
+  --border-glow: #2563EB;
+  --text-primary: #F0F6FF;
+  --text-secondary: #8B9EC7;
+  --text-muted: #3D5278;
+  --accent-blue: #3B82F6;
+  --accent-cyan: #06B6D4;
+  --accent-purple: #8B5CF6;
+  --accent-green: #10B981;
+  --accent-amber: #F59E0B;
+  --accent-red: #EF4444;
+  --gradient-primary: linear-gradient(135deg, #1E3A5F 0%, #0D1B2E 100%);
+  --gradient-glow: radial-gradient(ellipse at center, #1D4ED820 0%, transparent 70%);
+
+  /* Used by tailwind if we configure variables directly */
+  --foreground: var(--text-primary);
+  --background: var(--bg-primary);
+}
+
+body {
+  color: var(--text-primary);
+  background: var(--bg-primary);
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+code, .monospace {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--bg-elevated);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--border);
+}
+
+/* Typing animation */
+.typing-dot {
+  animation: bounce 1.4s infinite ease-in-out both;
+}
+.typing-dot:nth-child(1) { animation-delay: -0.32s; }
+.typing-dot:nth-child(2) { animation-delay: -0.16s; }
+
+@keyframes bounce {
+  0%, 80%, 100% { transform: scale(0); }
+  40% { transform: scale(1); }
+}
+
+/* Animations that are complex enough to be easier in CSS */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.skeleton-shimmer {
+  background: linear-gradient(90deg, var(--bg-elevated) 25%, var(--border) 50%, var(--bg-elevated) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite linear;
+}

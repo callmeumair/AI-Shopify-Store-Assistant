@@ -1,0 +1,102 @@
+[
+  {
+    "question": "What is your return policy?",
+    "answer": "We accept returns within 30 days of delivery. The item must be unused and in its original packaging.",
+    "category": "Returns"
+  },
+  {
+    "question": "How long does shipping take?",
+    "answer": "Standard shipping usually takes 3-5 business days. Expedited shipping is available at checkout and takes 1-2 business days.",
+    "category": "Shipping"
+  },
+  {
+    "question": "Do you ship internationally?",
+    "answer": "Yes, we ship to most countries worldwide. International shipping typically takes 7-14 business days depending on the destination.",
+    "category": "Shipping"
+  },
+  {
+    "question": "How can I track my order?",
+    "answer": "Once your order ships, you will receive an email with tracking information. You can also track your order through your account dashboard.",
+    "category": "Orders"
+  },
+  {
+    "question": "What payment methods do you accept?",
+    "answer": "We accept Visa, MasterCard, American Express, Discover, PayPal, and Apple Pay.",
+    "category": "Payment"
+  },
+  {
+    "question": "Can I cancel or change my order?",
+    "answer": "Orders can be canceled or modified within 1 hour of placement. Please contact customer support immediately for any changes.",
+    "category": "Orders"
+  },
+  {
+    "question": "What happens if an item is out of stock?",
+    "answer": "If an item is out of stock, you can sign up to be notified when it becomes available again.",
+    "category": "Products"
+  },
+  {
+    "question": "Do you offer gift cards?",
+    "answer": "Yes, we offer digital gift cards in various denominations. They are delivered instantly via email.",
+    "category": "Products"
+  },
+  {
+    "question": "Is my personal information secure?",
+    "answer": "Yes, we use industry-standard encryption to protect your personal and payment information.",
+    "category": "Security"
+  },
+  {
+    "question": "How do I return a defective item?",
+    "answer": "If you receive a defective item, please contact our support team within 48 hours of delivery with photos of the defect, and we will arrange a replacement.",
+    "category": "Returns"
+  },
+  {
+    "question": "Do you offer wholesale pricing?",
+    "answer": "Yes, we have a wholesale program for qualifying businesses. Please contact wholesale@example.com for more information.",
+    "category": "Sales"
+  },
+  {
+    "question": "How can I apply a discount code?",
+    "answer": "You can enter your discount code at checkout in the 'Promo Code' field before completing your purchase.",
+    "category": "Payment"
+  },
+  {
+    "question": "What are your customer support hours?",
+    "answer": "Our customer support team is available Monday through Friday, 9 AM to 5 PM EST.",
+    "category": "Support"
+  },
+  {
+    "question": "Do you price match?",
+    "answer": "Currently, we do not offer price matching.",
+    "category": "Sales"
+  },
+  {
+    "question": "How do I create an account?",
+    "answer": "You can create an account by clicking the 'Sign Up' link at the top of our website and filling out your details.",
+    "category": "Account"
+  },
+  {
+    "question": "I forgot my password, how do I reset it?",
+    "answer": "Click on 'Forgot Password' on the login page and enter your email address. You will receive a link to reset your password.",
+    "category": "Account"
+  },
+  {
+    "question": "Can I use multiple promo codes on one order?",
+    "answer": "No, only one promotional code can be applied per order.",
+    "category": "Payment"
+  },
+  {
+    "question": "Are shipping fees refundable?",
+    "answer": "Original shipping fees are non-refundable unless the return is due to an error on our part.",
+    "category": "Returns"
+  },
+  {
+    "question": "How do I subscribe to your newsletter?",
+    "answer": "You can subscribe by entering your email address in the newsletter signup form located at the footer of our website.",
+    "category": "Account"
+  },
+  {
+    "question": "What should I do if my package is lost?",
+    "answer": "If your package is marked as delivered but you haven't received it, please contact the carrier directly. If they cannot locate it, reach out to our support team within 7 days.",
+    "category": "Shipping"
+  }
+]
